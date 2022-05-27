@@ -1,0 +1,13 @@
+// compute n factorial 
+
+class Fact
+{ public static void main (String [] args)
+{
+
+  int n,f,i;
+  n = 8;
+  f = 1;
+  for (i= 2; i<= n; i = i+1)
+    f = f*i;
+} 
+}

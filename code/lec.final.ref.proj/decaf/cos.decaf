@@ -1,0 +1,24 @@
+class Cos
+{ public static void main (String [] args)
+{
+
+
+  	
+  float cos, x, n, term, eps, alt;
+// compute the cosine of x to within tolerance eps
+
+  x = 6.28320;
+  eps = 0.0001;
+  n = 1;
+  cos = 1;
+  term = 1;
+  alt = -1;
+  while (term>eps) 
+    { 
+    term = term*x*x/n/(n+1);
+    cos = cos + alt*term;
+    alt = -alt; 
+    n = n + 2;
+    }
+}
+}

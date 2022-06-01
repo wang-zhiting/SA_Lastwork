@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wpb6/DEIhiaEWNeuWnl+JLEexseTikVammgbXYcr6YtR5k63CubB7TqaVxjDy/ew8SLzQlOUCPupFXmwd61RJw==",
+  "success": true,
+  "projectFilePath": "D:\\桌面\\项目\\VS\\SA_Lastwork\\SA_Lastwork\\microc\\microc.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\fsharp.core\\6.0.4\\fsharp.core.6.0.4.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\fslexyacc\\10.2.0\\fslexyacc.10.2.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\fslexyacc.runtime\\10.2.0\\fslexyacc.runtime.10.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

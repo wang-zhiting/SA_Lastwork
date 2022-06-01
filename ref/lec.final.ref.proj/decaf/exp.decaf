@@ -1,0 +1,20 @@
+class Exp
+{ public static void main (String [] args)
+{
+
+  float exp, x, n, term, eps;
+// compute the function exp(x) to within tolerance eps
+
+  x = 1.0;
+  eps = 1.0e-8;
+  n = 1;
+  exp = 1;
+  term = 1;
+  while (term>eps)
+    {
+    term = term*x/n;
+    exp = exp + term;
+    n = n + 1;
+    }
+}   
+}

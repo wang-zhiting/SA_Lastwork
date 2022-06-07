@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git\\-micro-C\\microc\\microcc.fsproj": {}
+    "D:\\桌面\\项目\\VS\\SA_Lastwork\\-micro-C\\microc\\microcc.fsproj": {}
   },
   "projects": {
-    "D:\\git\\-micro-C\\microc\\microcc.fsproj": {
+    "D:\\桌面\\项目\\VS\\SA_Lastwork\\-micro-C\\microc\\microcc.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\-micro-C\\microc\\microcc.fsproj",
+        "projectUniqueName": "D:\\桌面\\项目\\VS\\SA_Lastwork\\-micro-C\\microc\\microcc.fsproj",
         "projectName": "microcc",
-        "projectPath": "D:\\git\\-micro-C\\microc\\microcc.fsproj",
-        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\-micro-C\\microc\\obj\\",
+        "projectPath": "D:\\桌面\\项目\\VS\\SA_Lastwork\\-micro-C\\microc\\microcc.fsproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\桌面\\项目\\VS\\SA_Lastwork\\-micro-C\\microc\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\6.0.300\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,8 +37,9 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[5.0.0, )",
+              "version": "[6.0.4, )",
               "generatePathProperty": true
             },
             "FsLexYacc": {
@@ -64,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
